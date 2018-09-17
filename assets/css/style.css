@@ -1,3 +1,12 @@
+html {
+    background-image: url('/assets/images/concrete_seamless.png');
+}
+
+.container {
+    padding: 8px 30px;
+    border-bottom: 1px solid #cccccc;
+}
+
 header {
     background: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -14,11 +23,6 @@ nav {
     float: left;
     flex-direction: row;
     justify-content: space-around;
-}
-
-header,
-nav {
-    border-color: #cccccc;
 }
 
 section.about,
@@ -59,13 +63,12 @@ body {
     border-color: #777777;
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    
 }
 
 footer {
     color: #c0bcbc;
     background: #666666;
-    border: 4px solid #4aaaa5;
+    border-top: 4px solid #4aaaa5;
     text-align: center;
     padding: 30px;
     font-size: 12px;
