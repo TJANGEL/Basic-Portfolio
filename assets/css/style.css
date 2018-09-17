@@ -5,9 +5,9 @@ html {
 .container {
     padding: 8px 30px;
     border-bottom: 1px solid #cccccc;
+    /* position: relative; */
 }
 
-/* create a z-index: 10 so header and nav appear above the background and body */
 header {
     background: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -15,47 +15,28 @@ header {
     padding: 8px 30px;
     font-size: 14px;
     color: white;
-    margin: 0 auto;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    z-index: 10;
 }
 
-nav {
+.nav {
     display: flex;
-    float: left;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-end;
 }
 
-section.about,
-section.portfolio,
-section.contact {
+h1.about,
+section.p {
     padding: 35px 10px;
-    display: flex;
-    justify-items: flex-end;
-}
-
-section.about,
-section.portfolio {
-    display-right: 2px solid #cccccc;
 }
 
 
-h1.about {
-    color: #4aaaa5;
-}
-
-h1.contact {
-    color: #4aaaa5;
-}
-
-h1.portfolio {
-    color: #4aaaa5;
-}
 
 h1.about,
 h1.contact,
 h1.portfolio {
-    border-bottom: 5px solid #d6d4d4;
+    color: #4aaaa5;
+    margin: 5px;
 }
 
 
