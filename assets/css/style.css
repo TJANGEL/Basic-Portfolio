@@ -1,0 +1,75 @@
+header {
+    background: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    float: left;
+    padding: 8px 30px;
+    font-size: 14px;
+    color: white;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+nav {
+    display: flex;
+    float: left;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+header,
+nav {
+    border-color: #cccccc;
+}
+
+section.about,
+section.portfolio,
+section.contact {
+    padding: 35px 10px;
+    display: flex;
+    justify-items: flex-end;
+}
+
+section.about,
+section.portfolio {
+    display-right: 2px solid #cccccc;
+}
+
+
+h1.about {
+    color: #4aaaa5;
+}
+
+h1.contact {
+    color: #4aaaa5;
+}
+
+h1.portfolio {
+    color: #4aaaa5;
+}
+
+h1.about,
+h1.contact,
+h1.portfolio {
+    border-bottom: 5px solid #d6d4d4;
+}
+
+
+body {
+    background: #ffffff;
+    border-color: #777777;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
+}
+
+footer {
+    color: #c0bcbc;
+    background: #666666;
+    border: 4px solid #4aaaa5;
+    text-align: center;
+    padding: 30px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+}
