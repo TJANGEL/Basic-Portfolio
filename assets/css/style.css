@@ -30,7 +30,15 @@ section.p {
     padding: 35px 10px;
 }
 
+h1.about {
+    border-bottom: 3px solid #e9e6e6;
+}
 
+.profile-pic {
+    position: relative;
+    padding: 20px;
+    margin-bottom: 10px;
+}
 
 h1.about,
 h1.contact,
