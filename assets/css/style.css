@@ -1,3 +1,9 @@
+* {
+    /* margin: 0;
+    padding: 0; */
+}
+
+
 html {
     background-image: url('/assets/images/concrete_seamless.png');
 }
@@ -21,19 +27,22 @@ header {
 }
 
 .nav {
-    /* display: flex;
+    display: flex;
     flex-direction: row;
-    justify-content: flex-end; */
-    display: inline-block;
+    justify-content: flex-end;
+    /* display: inline-block; */
+}
+
+.about,
+.portfolio {
+    border-right: 1px solid #cccccc;
+    margin-right: 5px;
+    padding-right: 5px;
 }
 
 h1.about,
 section.p {
     padding: 35px 10px;
-}
-
-h1.about {
-    border-bottom: 3px solid #e9e6e6;
 }
 
 .profile-pic {
@@ -47,14 +56,27 @@ h1.contact,
 h1.portfolio {
     color: #4aaaa5;
     margin: 5px;
+    border-bottom: 3px solid #e9e6e6;
 }
 
+.submit-button {
+    background: #4aaaa5;
+    color: white;
+}
+
+.name,
+.email,
+.message {
+    color: #777777;
+}
 
 body {
     background: #ffffff;
     border-color: #777777;
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    overflow: auto;
+    padding-bottom: 20px;
 }
 
 footer {
@@ -67,4 +89,6 @@ footer {
     display: flex;
     justify-content: center;
     align-content: flex-end;
+    position: relative;
+    clear: both;
 }
