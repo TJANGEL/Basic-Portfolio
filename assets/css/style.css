@@ -68,6 +68,12 @@ h1.portfolio {
 .email,
 .message {
     color: #777777;
+    margin: 0 auto;
+    width: 960px;
+}
+
+.message {
+    height: 200px;
 }
 
 body {
