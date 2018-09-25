@@ -146,6 +146,10 @@ nav {
     text-decoration: none;
 }
 
+#nav {
+    text-decoration: none;
+}
+
 .border-right {
     border-right: 1px solid #cccccc;
     margin-right: 10px;
